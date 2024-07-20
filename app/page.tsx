@@ -1,3 +1,5 @@
-export default function Sex() {
-    return <h2>hello bitch</h2>
+import Navigation from "../components/navigation";
+
+export default function RootPage() {
+    return <h2><Navigation /></h2>
 }
